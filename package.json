@@ -1,0 +1,13 @@
+{
+  "name": "n2-news-reader-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A dependency-free Burmese news reader portfolio demo with fictional editions.",
+  "type": "module",
+  "engines": {"node": ">=20"},
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node --test",
+    "preview": "node scripts/preview.mjs"
+  }
+}
